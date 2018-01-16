@@ -1,3 +1,7 @@
+//main javascript file
+
+
+// used to the place of a db
 houses = [
 	{
 	  "main_pic" : "./images/",
@@ -66,3 +70,17 @@ houses = [
 	  "num_of_bathrooms": 0
 	}
 ]
+
+function populateFeatureSection(){
+	// populates the feature section on the home page
+
+	let featureSection = document.getElementById("featureSection");
+  let array_length = houses.length;
+	for(let i = 0; i < array_length; i++){
+    house = "<div><a href="+houses[i].["main_pic"]+">"+
+    houses[i]["address"]+" , "+ houses[i]["city"]+", "+houses[i]["state"]+
+    "</a><p>Price: "+houses[i]["price"]+"</p>"
+    "</div>";
+    featureSection.innerHTML = house;
+	}
+}
