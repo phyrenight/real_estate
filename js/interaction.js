@@ -77,7 +77,7 @@ function populateFeatureSection(){
 	let featureSection = document.getElementById("featureSection");
   let array_length = houses.length;
 	for(let i = 0; i < array_length; i++){
-    house = "<div><a href="+houses[i].["main_pic"]+">"+
+    house = "<div onClick='' onHover=''><a href="+houses[i].["main_pic"]+">"+
     houses[i]["address"]+" , "+ houses[i]["city"]+", "+houses[i]["state"]+
     "</a><p>Price: "+houses[i]["price"]+"</p>"
     "</div>";
