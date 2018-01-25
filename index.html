@@ -12,17 +12,17 @@
   </head>
   <body>
   	<header>
-  		<div>
+  		<div id="heading">
   		  <h1>Preston Real Estate</h1>
   		  <a href="#">login</a>
   		  <a href="#">Register</a>
   		</div>
   		<section id="slider">
-  		  <div class="arrow" id="left">
-  		    <p>&#xab;</p>
+  		  <div class="arrowContainer" id="left">
+  		    <p class="arrow">&#xab;</p>
   		  </div>
-  		  <div class="arrow" id="right">
-  		    <p>&#xbb;</p>
+  		  <div class="arrowContainer" id="right">
+  		    <p class="arrow">&#xbb;</p>
   		  </div>
   		</section>
   		<nav>
@@ -36,11 +36,11 @@
   	<aside>
   		<h2>Search</h2>
   		<form>
-  			<label>State
+  			<label>State:
   			  <input type="text" placeholder="state">
   			</label>
   			<label>Zipcode:
-  			  <input type="" placeholder="zipcode">
+  			  <input type="text" pattern="[0-9]-{5}" placeholder="5 digit US zipcode">
   			</label>
   			<label>Number of rooms:
   				<select>
@@ -66,6 +66,7 @@
   		</section>
   	</main>
   	<footer>
+  		<nav>
   		<ul>
   			<li>Legal</li>
   			<li>About Us</li>
