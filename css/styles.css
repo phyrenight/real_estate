@@ -41,6 +41,12 @@ label {
 	display: block;
 }
 
+input[type="submit"]{
+	display: block;
+	text-align: center;
+}
+
+
 /* footer section */
 footer{
 	text-align: center;
