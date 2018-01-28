@@ -3,6 +3,17 @@ body{
 	margin: 0px 5px;
 }
 
+nav {
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+nav li {
+	display: inline-block;
+}
+
 /* header section */
 header #heading{
 	text-align: center;
@@ -48,7 +59,4 @@ input[type="submit"]{
 
 
 /* footer section */
-footer{
-	text-align: center;
-}
 
