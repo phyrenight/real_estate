@@ -37,6 +37,8 @@ h1{
 .arrowContainer {
 	display: inline-block;
 	height: 100%;
+	box-sizing: border-box;
+	padding-top: 82px;
 }
 
 

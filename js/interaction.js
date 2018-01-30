@@ -77,10 +77,10 @@ function populateFeatureSection(){
 	let featureSection = document.getElementById("featureSection");
   let array_length = houses.length-1;
 	for(let i = 0; i < array_length; i++){
-    house += "<div onClick='' onHover=''><a href='"+houses[i].main_pic+"'>"+
+    house += "<article onClick='' onHover=''><a href='"+houses[i].main_pic+"'>"+
     "number of bathrooms: "+ houses[i].num_of_bathrooms +
     "number of rooms: "+houses[i]["num_of_rooms"]+houses[i]["address"]+" , "+ houses[i]["city"]+", "+houses[i]["state"]+
-    "</a><p>Price: "+houses[i]["price"]+"</p></div>";
+    "</a><p>Price: "+houses[i]["price"]+"</p></article>";
     featureSection.innerHTML = house;
 	}
 	console.log(house)
