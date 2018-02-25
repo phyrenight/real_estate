@@ -3,6 +3,10 @@ body{
 	margin: 0px 5px;
 }
 
+h2, article, form{
+	padding-left: 8px;
+}
+
 nav {
 	text-align: center;
 }
@@ -29,8 +33,13 @@ h1{
   overflow: auto;
   position: relative;
 }
+
+.arrowContainer:hover p {
+	background-color: rgba(0,0,0,.2)
+}
+
 .arrow {
-	font-size: 30px;
+	font-size: 80px;
   display: inline-block;
 }
 
@@ -38,15 +47,17 @@ h1{
 	display: inline-block;
 	height: 100%;
 	box-sizing: border-box;
-	padding-top: 82px;
+	padding: 82px 8px 0;
 }
 
 
 #left{
 	float: left;
 }
+
 #right{
 	float: right;
+	font:80px;
 }
 
 /*aside */
