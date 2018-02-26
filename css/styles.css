@@ -71,5 +71,21 @@ input[type="submit"]{
 }
 
 
+article {
+	margin-top: 10px;
+	border: 1px solid grey;
+	border-radius: 5%;
+
+}
+
+article div{
+	display:inline-block;
+	width: 50%;
+}
+
+article p {
+	line-height: .50;
+}
+
 /* footer section */
 
