@@ -75,12 +75,16 @@ article {
 	margin-top: 10px;
 	border: 1px solid grey;
 	border-radius: 5%;
-
 }
 
 article div{
 	display:inline-block;
 	width: 50%;
+	vertical-align: top;
+}
+
+article img { 
+    text-align:center;
 }
 
 article p {
