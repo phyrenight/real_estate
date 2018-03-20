@@ -1,11 +1,11 @@
 /* body */
 body{
-	margin: 0px 5px;
+	margin: 0px 8px;
 }
 
-h2, article, form{
-	padding-left: 8px;
-}
+/*h2, form{
+	/*padding-left: 8px;
+}*/
 
 nav {
 	text-align: center;
@@ -29,9 +29,9 @@ h1{
 
 #slider {
 	height: 300px;
-  background-color: green;
-  overflow: auto;
-  position: relative;
+    background-color: green;
+    overflow: auto;
+    position: relative;
 }
 
 .arrowContainer:hover p {
@@ -40,7 +40,7 @@ h1{
 
 .arrow {
 	font-size: 80px;
-  display: inline-block;
+    display: inline-block;
 }
 
 .arrowContainer {
@@ -57,12 +57,13 @@ h1{
 
 #right{
 	float: right;
-	font:80px;
+	font: 80px;
 }
 
 /*aside */
 label {
 	display: block;
+	margin: 6px 0px;
 }
 
 input[type="submit"]{
@@ -72,23 +73,27 @@ input[type="submit"]{
 
 
 article {
-	margin-top: 10px;
+	margin-top: 10px ;
 	border: 1px solid grey;
 	border-radius: 5%;
+	overflow: hidden;
 }
 
 article div{
-	display:inline-block;
+	display: inline-block;
 	width: 50%;
 	vertical-align: top;
 }
 
 article img { 
-    text-align:center;
+	display: block;
+    text-align: center;
+    width: 100%;
 }
 
 article p {
 	line-height: .50;
+	margin-left:  8px;
 }
 
 /* footer section */
